@@ -1,3 +1,12 @@
-langchain-mcp-adapters
-langgraph
-langchain
+langchain==1.4.7
+langgraph==1.2.16
+langchain-core==1.7.0
+langchain-openai==1.7.2
+langchain-mcp-adapters==0.3.2
+# langchain-mcp-adapters is archived (0.3.2 is its last release; successor: langchain[mcp]) and requires mcp<2
+mcp==1.30.0
+sqlite-vec==0.1.9
+numpy==2.5.4
+loguru==0.7.3
+python-dotenv==1.2.4
+fire==0.7.1
